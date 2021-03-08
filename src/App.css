@@ -1,22 +1,19 @@
 .App {
   text-align: center;
 }
-.Homebeforescrolling{
-  background-image: url(./BackgroundHome.jpg);
-  background-size: cover;
-  background-color: #d7eaf3;
-  background-blend-mode: multiply;
-}
 
 .Navbar {
-  background-color: transparent;
+  background-color: #14397D;
   padding: 5px;
   display: flex;
 }
 
 .welcomepage {
+  background-image: url(./BackgroundHome.jpg);
+  background-size: cover;
+  background-color: #d7eaf3;
+  background-blend-mode: multiply;
   padding-top: 5em;
-  background-color: transparent;
   height: 100vh;
 }
 
@@ -24,6 +21,10 @@
   height: 100vh;
   background-color: #14397D;
   color: white
+}
+
+.projects {
+  height: 100vh;
 }
 
 .contact {
@@ -50,6 +51,10 @@
   padding: 1em;
 }
 
-.LinkedInIcon {
-  height: 2em;
+.Fa {
+  color: #d7eaf3;
+}
+
+.Fa :hover {
+  color: cornflowerblue;
 }
