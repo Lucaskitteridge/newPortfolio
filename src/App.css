@@ -3,20 +3,25 @@
 }
 .Homebeforescrolling{
   background-image: url(./Skyline.jpg);
-  background-size: contain;
-  background-attachment: scroll, fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  
 }
 
 .Navbar {
   background-color: transparent;
   padding: 5px;
   display: flex;
+  color: #f4ece3;
 }
 
 .welcomepage {
   padding-top: 5em;
   background-color: transparent;
   height: 100vh;
+  color: #f4ece3;
 }
 
 .aboutme {
