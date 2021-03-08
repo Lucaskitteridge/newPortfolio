@@ -8,7 +8,8 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar className="Navbar" position="relative" sticky="top" id="navbar">
+      <div className="Homebeforescrolling">
+      <Navbar className="Navbar" position="fixed" sticky="top" id="navbar">
         <div>
           <Navbar.Brand href="#welcomepage">Lucas Kitteridge</Navbar.Brand>
         </div>
@@ -20,7 +21,7 @@ function App() {
           </Nav>
         </div>
       </Navbar>
-      <div className="Homebeforescrolling">
+      <div >
         <div className="welcomepage" id="welcomepage">
           <h1>Hi, I'm Lucas and I'm a full stack web-developer</h1>
           <p>
@@ -65,6 +66,7 @@ function App() {
             <p className="linkname">Email me</p>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

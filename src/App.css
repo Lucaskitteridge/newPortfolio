@@ -3,12 +3,8 @@
 }
 .Homebeforescrolling{
   background-image: url(./Skyline.jpg);
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-position: 0%, 0%, 50%, 50%;
+  background-size: contain;
   background-attachment: scroll, fixed;
-  background-position: center;
-
 }
 
 .Navbar {
@@ -25,17 +21,18 @@
 
 .aboutme {
   height: 100vh;
-  background-color: #14397D;
+  background-color: #53636c;
   color: white
 }
 
 .projects {
   height: 100vh;
+  background-color: #f4ece3;
 }
 
 .contact {
   height: 30vh;
-  background-color: #14397D;
+  background-color: rgb(134,204,204);
 }
 
 .icons {
@@ -49,10 +46,6 @@
   width: 3em;
 }
 
-.bi :hover{
-  fill: red
-}
-
 .icons {
   padding: 1em;
 }
@@ -62,9 +55,9 @@
 }
 
 .Fa {
-  color: #d7eaf3;
+  color: #f4ece3;
 }
 
 .Fa :hover {
-  color: cornflowerblue;
+  color: #53636c;
 }
