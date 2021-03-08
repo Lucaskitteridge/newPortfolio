@@ -27,28 +27,25 @@ function App() {
         <div >
           <div className="welcomepage" id="welcomepage">
             <h1>Hi, I'm Lucas and I'm a full stack web-developer</h1>
-            <p>
-              This is a simple hero unit, a simple jumbotron-style component for calling
-              extra attention to featured content or information.
-          </p>
           </div>
         </div>
         <div id="aboutMe" className="aboutme">
-          <h1>About Me</h1>
+          <h1 ClassName="title">About Me</h1>
+          <div className="profile"></div>
           <p>
             This is a simple hero unit, a simple jumbotron-style component for calling
             extra attention to featured content or information.
           </p>
         </div>
         <div id="projects" className="projects">
-          <h1>Projects</h1>
+          <h1 ClassName="title">Projects</h1>
           <p>
             This is a simple hero unit, a simple jumbotron-style component for calling
             extra attention to featured content or information.
           </p>
         </div>
         <div id="contact" className="contact">
-          <h1>Contact</h1>
+          <h1 ClassName="title">Contact</h1>
           <div className="icons">
             <div>
               <a href="https://www.linkedin.com/in/lucaskitteridge/">

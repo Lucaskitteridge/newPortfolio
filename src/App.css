@@ -7,9 +7,13 @@
   background-attachment: fixed;
   background-position: top center;
   background-repeat: no-repeat;
-  
 }
-
+.profile {
+  content: url(./IMG_1551.jpg);
+  border-radius: 10%;
+  height: 50vh;
+  clip: auto;
+}
 .Navbar {
   background-color: transparent;
   padding: 5px;
@@ -19,7 +23,6 @@
 
 .welcomepage {
   padding-top: 5em;
-  background-color: transparent;
   height: 100vh;
   color: #f4ece3;
 }
@@ -36,7 +39,7 @@
 }
 
 .contact {
-  height: 30vh;
+  height: 32vh;
   background-color: rgb(134,204,204);
 }
 
@@ -45,18 +48,16 @@
   justify-content: space-around;
 }
 
-.bi {
-  padding-left: 1em;
-  height: 3em;
-  width: 3em;
-}
-
 .icons {
   padding: 1em;
 }
 
-.linkname {
+h1{
   padding-top: .5em;
+}
+
+.linkname {
+  padding-top: .25em;
 }
 
 .Fa {
