@@ -1,19 +1,23 @@
 .App {
   text-align: center;
 }
+.Homebeforescrolling{
+  background-image: url(./Skyline.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: 0%, 0%, 50%, 50%;
+  background-attachment: scroll, fixed;
+}
 
 .Navbar {
-  background-color: #14397D;
+  background-color: transparent;
   padding: 5px;
   display: flex;
 }
 
 .welcomepage {
-  background-image: url(./BackgroundHome.jpg);
-  background-size: cover;
-  background-color: #d7eaf3;
-  background-blend-mode: multiply;
   padding-top: 5em;
+  background-color: transparent;
   height: 100vh;
 }
 
