@@ -2,8 +2,10 @@
   text-align: center;
 }
 .Homebeforescrolling{
-  background-image: url(./BackgroundHome.jpg);
-  background-size: cover;
+  /* background-image: url(./BackgroundHome.jpg);
+  background-size: cover; */
+  background-color: #d7eaf3;
+  /* background-blend-mode: multiply; */
 }
 
 .Navbar {
@@ -15,4 +17,15 @@
 .welcomepage {
   padding-top: 5em;
   background-color: transparent;
+  height: 100vh;
+}
+
+.aboutme {
+  height: 100vh;
+  background-color: #14397D;
+  color: white
+}
+
+.contact {
+  height: 50vh;
 }
