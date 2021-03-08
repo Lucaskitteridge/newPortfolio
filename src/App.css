@@ -28,4 +28,28 @@
 
 .contact {
   height: 50vh;
+  background-color: #14397D;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bi {
+  padding-left: 1em;
+  height: 3em;
+  width: 3em;
+}
+
+.bi :hover{
+  fill: red
+}
+
+.icons {
+  padding: 1em;
+}
+
+.LinkedInIcon {
+  height: 2em;
 }
