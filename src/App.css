@@ -2,10 +2,10 @@
   text-align: center;
 }
 .Homebeforescrolling{
-  /* background-image: url(./BackgroundHome.jpg);
-  background-size: cover; */
+  background-image: url(./BackgroundHome.jpg);
+  background-size: cover;
   background-color: #d7eaf3;
-  /* background-blend-mode: multiply; */
+  background-blend-mode: multiply;
 }
 
 .Navbar {
