@@ -1,21 +1,21 @@
 import './App.css';
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaEnvelope , FaPortrait} from 'react-icons/fa'
 import { useState } from 'react'
 
 function App() {
 
-  const [colorChange, setColorchange] = useState(false); 
-  const changeNavbarColor = () =>{ 
-     if(window.scrollY >= 160){ 
-       setColorchange(true); 
-     } 
-     else{ 
-       setColorchange(false); 
-     } 
-  }; 
-  window.addEventListener('scroll', changeNavbarColor); 
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 160) {
+      setColorchange(true);
+    }
+    else {
+      setColorchange(false);
+    }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
 
   return (
     <div className="App">
@@ -41,9 +41,15 @@ function App() {
           <h1 ClassName="title">About Me</h1>
           <div className="columns">
             <div className="profile"></div>
+            <div className="aboutmecolumn">
             <p>
               Hi, my name's Lucas. Currently I'm transitioning from a seven year career as a professional figure skater on Team GB to a career in Full stack development.
-          </p>
+            </p>
+            <a href="https://resume.creddle.io/resume/3m97wunziro" target="_blank" rel="noreferrer">
+                <FaPortrait className="Fa" size="2em" />
+              </a>
+              <p className="linkname" >Resume</p>
+              </div>
           </div>
         </div>
         <div id="skills" className="skills">
@@ -58,7 +64,7 @@ function App() {
               <p>PostgreSQL</p>
             </div>
             <div className="group">
-              <h1 className="skilltitle">Frameworks/Libraries</h1>
+              <h1 className="skilltitle">Frameworks</h1>
               <p>Node, React, Express, Ajax, Axios, Jquery, Babel, Storybook, Normalise, EJS, Rails</p>
             </div>
             <div className="group">
