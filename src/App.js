@@ -43,35 +43,20 @@ function App() {
           <h1 ClassName="title">Skills</h1>
           <div className="categories">
             <div className="languages">
-              <h1>Languages</h1>
-              <div className="js" alt="Javascript" title="Javascript"></div>
-              <div className="ruby" alt="Ruby" title="Ruby"></div>
-              <div className="html" alt="HTML" title="Html"></div>
-              <div className="css" alt="Css" title="Css"></div>
+              <h1>Languages: </h1>
+              <p>Javascript, Ruby, Html, Css </p>
             </div>
             <div className="databases">
-              <h1>Databases</h1>
-              <div className="sql" alt="PostgreSQL" title="PostgreSQL"></div>
+              <h1>Databases: </h1>
+              <p>PostgreSQL: </p>
             </div>
             <div className="frameworks">
-              <h1>Frameworks/libraries</h1>
-              <div className="Node" alt="Node" title="Node"></div>
-              <div className="React" alt="React" title="React"></div>
-              <div className="Express" alt="Express" title="Express"></div>
-              <div className="Websockets" alt="Websockets" title="Websockets"></div>
-              <div className="Ajax" alt="Ajax" title="Ajax"></div>
-              <div className="Jquery" alt="Jquery" title="Jquery"></div>
-              <div className="Axios" alt="Axios" title="Axios"></div>
-              <div className="Babel" alt="Babel" title="Babel"></div>
-              <div className="EJS" alt="EJS" title="EJS"></div>
+              <h1>Frameworks/Libraries: </h1>
+              <p>Node, React, Express, Ajax, Axios, Jquery, Babel, Storybook, Normalise, EJS, Rails</p>
             </div>
             <div className="Testing">
-              <h1>Testing</h1>
-              <div className="Jest" alt="Jest" title="Jest"></div>
-              <div className="Capybara" alt="Capybara" title="Capybara"></div>
-              <div className="Cypress" alt="Cypress" title="Cypress"></div>
-              <div className="Mocha" alt="Mocha" title="Mocha"></div>
-              <div className="Chai" alt="Chai" title="Chai"></div>
+              <h1>Testing: </h1>
+              <p>Jest, Mocha, Chai, Cypress, Capybara</p>
             </div>
           </div>
         </div>

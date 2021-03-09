@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
@@ -29,11 +33,12 @@
   color: #f4ece3;
   padding-right: 2em;
   padding-left: 2em;
+  display: flex;
+  align-items: baseline;
 }
 
 .skills {
-  padding-top: 5em;
-  height: 100vh;
+  height: 80vh;
   background-color: #f4ece3;
 }
 
@@ -48,6 +53,7 @@
 .projects {
   height: 100vh;
   background-color: #547174;
+  color: white;
 }
 
 .contact {
@@ -101,32 +107,20 @@ h1{
   align-items: center;
 }
 
-.databases{
+.frameworks{
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.js {
-  content: url(./javascript.png);
-  height: 3em;
+.Testing{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.css {
-  content: url(./css.png);
-  height: 3em;
-}
-
-.ruby {
-  content: url(./ruby.png);
-  height: 3em;
-}
-
-.html {
-  content: url(./Html.png);
-  height: 3em;
-}
-.sql {
-  content: url(./postgresql-logo.png);
-  height: 3em;
+.databases{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
