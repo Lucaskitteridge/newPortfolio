@@ -27,16 +27,18 @@ function App() {
         </Navbar>
         <div >
           <div className="welcomepage" id="welcomepage">
-            <h1>Hi, I'm Lucas and I'm a full stack web-developer</h1>
+            <h1>Hi, I'm Lucas Kitteridge and I'm a full stack web-developer</h1>
           </div>
         </div>
         <div id="aboutMe" className="aboutme">
           <h1 ClassName="title">About Me</h1>
-          <div className="profile"></div>
-          <p>
-            This is a simple hero unit, a simple jumbotron-style component for calling
-            extra attention to featured content or information.
+          <div className="columns">
+            <div className="profile"></div>
+            <p>
+              This is a simple hero unit, a simple jumbotron-style component for calling
+              extra attention to featured content or information.
           </p>
+          </div>
         </div>
         <div id="skills" className="skills">
           <h1 ClassName="title">Skills</h1>

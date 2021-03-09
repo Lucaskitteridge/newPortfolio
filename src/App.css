@@ -9,10 +9,12 @@
   background-repeat: no-repeat;
 }
 .profile {
-  content: url(./IMG_1551.jpg);
-  border-radius: 10%;
+  content: url(./IMG_8815.jpg);
+  border-radius: 50%;
   height: 50vh;
   clip: auto;
+  padding-right: .5em;
+  align-items: center;
 }
 .Navbar {
   background-color: transparent;
@@ -25,6 +27,8 @@
   padding-top: 5em;
   height: 100vh;
   color: #f4ece3;
+  padding-right: 2em;
+  padding-left: 2em;
 }
 
 .skills {
@@ -36,7 +40,9 @@
 .aboutme {
   height: 100vh;
   background-color: #547174;
-  color: white
+  color: white;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .projects {
@@ -72,4 +78,9 @@ h1{
 
 .Fa :hover {
   color: #53636c;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
 }
