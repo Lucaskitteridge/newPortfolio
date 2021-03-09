@@ -18,6 +18,7 @@ function App() {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto" >
                 <Nav.Link href="#aboutMe">About</Nav.Link>
+                <Nav.Link href="#skills">Skills</Nav.Link>
                 <Nav.Link href="#projects">Projects</Nav.Link>
                 <Nav.Link href="#contact">Contact</Nav.Link>
               </Nav>
@@ -32,6 +33,13 @@ function App() {
         <div id="aboutMe" className="aboutme">
           <h1 ClassName="title">About Me</h1>
           <div className="profile"></div>
+          <p>
+            This is a simple hero unit, a simple jumbotron-style component for calling
+            extra attention to featured content or information.
+          </p>
+        </div>
+        <div id="skills" className="skills">
+          <h1 ClassName="title">Skills</h1>
           <p>
             This is a simple hero unit, a simple jumbotron-style component for calling
             extra attention to featured content or information.
@@ -68,6 +76,9 @@ function App() {
           </div>
         </div>
       </div>
+      <footer>
+        Copyright
+      </footer>
     </div>
   );
 }

@@ -27,15 +27,21 @@
   color: #f4ece3;
 }
 
+.skills {
+  padding-top: 5em;
+  height: 100vh;
+  background-color: #f4ece3;
+}
+
 .aboutme {
   height: 100vh;
-  background-color: #53636c;
+  background-color: #547174;
   color: white
 }
 
 .projects {
   height: 100vh;
-  background-color: #f4ece3;
+  background-color: #547174;
 }
 
 .contact {
