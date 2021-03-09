@@ -86,6 +86,12 @@ h1{
   color: #53636c;
 }
 
+.skilltitle {
+  padding-top: 0;
+  padding-right: .25em;
+  font-size: xx-large;
+}
+
 .columns {
   display: flex;
   flex-direction: row;
@@ -101,26 +107,25 @@ h1{
   padding-top: 0;
 }
 
-.languages{
+.group{
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-bottom: 1em;
 }
 
-.frameworks{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+@media only screen and (max-width: 600px) {
 
-.Testing{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+  .group{
+    flex-direction: column;
+  }
 
-.databases{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  .skills{
+    height: fit-content;
+  }
+
+  .columns{
+    flex-direction: column;
+  }
+
 }

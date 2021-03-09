@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { Button, Navbar, Nav, Jumbotron } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
@@ -9,21 +8,17 @@ function App() {
   return (
     <div className="App">
       <div className="Homebeforescrolling">
-        <Navbar className="Navbar" position="fixed" sticky="top" id="navbar">
-          <div>
-            <Navbar.Brand href="#welcomepage">Lucas Kitteridge</Navbar.Brand>
-          </div>
-          <div>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="mr-auto" >
-                <Nav.Link href="#aboutMe">About</Nav.Link>
-                <Nav.Link href="#skills">Skills</Nav.Link>
-                <Nav.Link href="#projects">Projects</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-          </div>
+        <Navbar className="Navbar" position="fixed" sticky="top" id="navbar"  expand="lg">
+        <Navbar.Brand href="#welcomepage">Lucas Kitteridge</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="#aboutMe">About</Nav.Link>
+              <Nav.Link href="#skills">Skills</Nav.Link>
+              <Nav.Link href="#projects">Projects</Nav.Link>
+              <Nav.Link href="#contact">Contact</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Navbar>
         <div >
           <div className="welcomepage" id="welcomepage">
@@ -42,20 +37,20 @@ function App() {
         <div id="skills" className="skills">
           <h1 ClassName="title">Skills</h1>
           <div className="categories">
-            <div className="languages">
-              <h1>Languages: </h1>
+            <div className="group">
+              <h1 className="skilltitle">Languages</h1>
               <p>Javascript, Ruby, Html, Css </p>
             </div>
-            <div className="databases">
-              <h1>Databases: </h1>
+            <div className="group">
+              <h1 className="skilltitle">Databases</h1>
               <p>PostgreSQL: </p>
             </div>
-            <div className="frameworks">
-              <h1>Frameworks/Libraries: </h1>
+            <div className="group">
+              <h1 className="skilltitle">Frameworks/Libraries</h1>
               <p>Node, React, Express, Ajax, Axios, Jquery, Babel, Storybook, Normalise, EJS, Rails</p>
             </div>
-            <div className="Testing">
-              <h1>Testing: </h1>
+            <div className="group">
+              <h1 className="skilltitle">Testing</h1>
               <p>Jest, Mocha, Chai, Cypress, Capybara</p>
             </div>
           </div>
@@ -71,13 +66,13 @@ function App() {
           <h1 ClassName="title">Contact</h1>
           <div className="icons">
             <div>
-              <a href="https://www.linkedin.com/in/lucaskitteridge/" target="_blank">
+              <a href="https://www.linkedin.com/in/lucaskitteridge/" target="_blank" rel="noreferrer">
                 <FaLinkedin className="Fa" size="2em" />
               </a>
               <p className="linkname">linkedin</p>
             </div>
             <div>
-              <a href="https://github.com/Lucaskitteridge" target="_blank">
+              <a href="https://github.com/Lucaskitteridge" target="_blank" rel="noreferrer">
                 <FaGithub className="Fa" size="2em" />
               </a>
               <p className="linkname">Github</p>
