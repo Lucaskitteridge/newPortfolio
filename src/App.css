@@ -83,4 +83,50 @@ h1{
 .columns {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.categories {
+  padding-left: 2em;
+  display: flex;
+  align-content: flex-start;
+  text-align: left;
+  flex-flow: column;
+  padding-top: 0;
+}
+
+.languages{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.databases{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.js {
+  content: url(./javascript.png);
+  height: 3em;
+}
+
+.css {
+  content: url(./css.png);
+  height: 3em;
+}
+
+.ruby {
+  content: url(./ruby.png);
+  height: 3em;
+}
+
+.html {
+  content: url(./Html.png);
+  height: 3em;
+}
+.sql {
+  content: url(./postgresql-logo.png);
+  height: 3em;
 }
