@@ -1,15 +1,27 @@
 import './App.css';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
+import { useState } from 'react'
 
 function App() {
+
+  const [colorChange, setColorchange] = useState(false); 
+  const changeNavbarColor = () =>{ 
+     if(window.scrollY >= 160){ 
+       setColorchange(true); 
+     } 
+     else{ 
+       setColorchange(false); 
+     } 
+  }; 
+  window.addEventListener('scroll', changeNavbarColor); 
 
   return (
     <div className="App">
       <div className="Homebeforescrolling">
-        <Navbar className="Navbar" position="fixed" sticky="top" id="navbar"  expand="lg">
-        <Navbar.Brand href="#welcomepage">Lucas Kitteridge</Navbar.Brand>
+        <Navbar className={colorChange ? 'Navbar scroll' : 'Navbar'} position="fixed" sticky="top" id="navbar" expand="sm">
+          <Navbar.Brand href="#welcomepage">Lucas Kitteridge</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
@@ -43,7 +55,7 @@ function App() {
             </div>
             <div className="group">
               <h1 className="skilltitle">Databases</h1>
-              <p>PostgreSQL: </p>
+              <p>PostgreSQL</p>
             </div>
             <div className="group">
               <h1 className="skilltitle">Frameworks/Libraries</h1>
