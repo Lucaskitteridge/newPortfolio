@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 9vh;
 }
 
 .App {
@@ -60,7 +61,9 @@ p {
 .skills {
   height: fit-content;
   background-color: #5EB5BF;
+  border-top: 10vh;
 }
+
 
 .aboutme {
   height: fit-content;
@@ -99,7 +102,7 @@ h1{
 }
 
 .Fa {
-  color: #f4ece3;
+  color: white;
 }
 
 .Fa :hover {
@@ -137,6 +140,7 @@ h1{
 
 footer{
   background-color: #5EB5BF;
+  padding-bottom: .2em;
 }
 
 .Typecraft{
@@ -233,7 +237,7 @@ footer{
   }
 
   .Navbar{
-    background-color: #4dadbf;
+    background-color: #5EB5BF;
   }
 
   .aboutme{
