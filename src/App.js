@@ -1,7 +1,7 @@
 import './App.css';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaGithub, FaLinkedin, FaEnvelope , FaPortrait} from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaEnvelope, FaPortrait } from 'react-icons/fa'
 import { useState } from 'react'
 
 function App() {
@@ -42,14 +42,14 @@ function App() {
           <div className="columns">
             <div className="profile"></div>
             <div className="aboutmecolumn">
-            <p>
-              Hi, my name's Lucas. Currently I'm transitioning from a seven year career as a professional figure skater on Team GB to a career in Full stack development.
+              <p>
+                Hi, my name's Lucas. Currently I'm transitioning from a seven year career as a professional figure skater on Team GB to a career in Full stack development.
             </p>
-            <a href="https://resume.creddle.io/resume/3m97wunziro" target="_blank" rel="noreferrer">
+              <a href="https://resume.creddle.io/resume/3m97wunziro" target="_blank" rel="noreferrer">
                 <FaPortrait className="Fa" size="2em" />
               </a>
               <p className="linkname" >Resume</p>
-              </div>
+            </div>
           </div>
         </div>
         <div id="skills" className="skills">
@@ -75,10 +75,38 @@ function App() {
         </div>
         <div id="projects" className="projects">
           <h1 ClassName="title">Projects</h1>
-          <p>
-            This is a simple hero unit, a simple jumbotron-style component for calling
-            extra attention to featured content or information.
-          </p>
+          <Carousel className="carouselitems">
+            <Carousel.Item >
+              <div className="container">
+                <img className="typecraft" alt="Typecraft" />
+              </div>
+              <div>Typecraft</div>
+            </Carousel.Item>
+            <Carousel.Item >
+              <div className="container">
+                <div className="typecraft" alt="Typecraft" />
+                <div class="middle">
+                  <div class="text">Typecraft</div>
+                </div>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item >
+              <div className="container">
+                <div className="typecraft" alt="Typecraft" />
+                <div class="middle">
+                  <div class="text">Typecraft</div>
+                </div>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item >
+              <div className="container">
+                <div className="typecraft" alt="Typecraft" />
+                <div class="middle">
+                  <div class="text">Typecraft</div>
+                </div>
+              </div>
+            </Carousel.Item>
+          </Carousel>
         </div>
         <div id="contact" className="contact">
           <h1 ClassName="title">Contact</h1>
