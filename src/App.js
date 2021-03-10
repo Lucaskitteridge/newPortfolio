@@ -78,32 +78,26 @@ function App() {
           <Carousel className="carouselitems">
             <Carousel.Item >
               <div className="container">
-                <img className="typecraft" alt="Typecraft" />
-              </div>
-              <div>Typecraft</div>
-            </Carousel.Item>
-            <Carousel.Item >
-              <div className="container">
-                <div className="typecraft" alt="Typecraft" />
-                <div class="middle">
-                  <div class="text">Typecraft</div>
-                </div>
+                <img className="Typecraft" alt="Typecraft" />
+                <p className="description">Typecraft</p>
               </div>
             </Carousel.Item>
             <Carousel.Item >
               <div className="container">
-                <div className="typecraft" alt="Typecraft" />
-                <div class="middle">
-                  <div class="text">Typecraft</div>
-                </div>
+                <img className="Scheduler" alt="Typecraft" />
+                <p className="description">Scheduler</p>
               </div>
             </Carousel.Item>
             <Carousel.Item >
               <div className="container">
-                <div className="typecraft" alt="Typecraft" />
-                <div class="middle">
-                  <div class="text">Typecraft</div>
-                </div>
+                <img className="Tweeter" alt="Typecraft" />
+                <p className="description">Tweeter</p>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item >
+              <div className="container">
+                <img className="Tinyapp" alt="Typecraft" />
+                <p className="description">Tinyapp</p>
               </div>
             </Carousel.Item>
           </Carousel>
