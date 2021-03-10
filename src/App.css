@@ -4,7 +4,18 @@ html {
 
 .App {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
+
+.title{
+  padding-bottom: 4vh;
+}
+
+.logo {
+  font-family: 'Oswald', sans-serif;
+  font-size: x-large;
+}
+
 .Homebeforescrolling{
   background-image: url(./Skyline.jpg);
   background-size: cover;
@@ -17,8 +28,9 @@ html {
   border-radius: 50%;
   height: 50vh;
   clip: auto;
-  padding-right: .5em;
+  margin-right: .5em;
   align-items: center;
+  margin-bottom: 2em;
 }
 
 .Navbar {
@@ -29,6 +41,10 @@ html {
 
 .Navbar.scroll {
   background-color: #4dadbf;
+}
+
+p {
+  text-align: center;
 }
 
 .welcomepage {
@@ -42,12 +58,12 @@ html {
 }
 
 .skills {
-  height: 80vh;
+  height: fit-content;
   background-color: #f4ece3;
 }
 
 .aboutme {
-  height: 100vh;
+  height: fit-content;
   background-color: #547174;
   color: white;
   padding-left: 2em;
@@ -124,7 +140,6 @@ h1{
   max-height: 70vh;
   max-width: 80vw;
   opacity: 1;
-  z-index: 2;
 }
 
 .Tweeter{
@@ -132,7 +147,6 @@ h1{
   max-height: 70vh;
   max-width: 80vw;
   opacity: 1;
-  z-index: 2;
 }
 
 .Tinyapp{
@@ -140,7 +154,6 @@ h1{
   max-height: 70vh;
   max-width: 80vw;
   opacity: 1;
-  z-index: 2;
 }
 
 .Scheduler{
@@ -148,7 +161,6 @@ h1{
   max-height: 70vh;
   max-width: 80vw;
   opacity: 1;
-  z-index: 2;
 }
 
 .container {
@@ -156,8 +168,32 @@ h1{
   width: 100%;
 }
 
+.Scheduler:hover {
+  opacity: 0.2;
+}
+
+.Scheduler:hover + .description{
+  visibility: visible;
+}
+
+.Tinyapp:hover {
+  opacity: 0.2;
+}
+
+.Tinyapp:hover + .description{
+  visibility: visible;
+}
+
+.Tweeter:hover {
+  opacity: 0.2;
+}
+
+.Tweeter:hover + .description{
+  visibility: visible;
+}
+
 .Typecraft:hover {
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .Typecraft:hover + .description{
@@ -166,10 +202,16 @@ h1{
 
 .description {
   position: absolute;
+  color: black;
+  font-size: medium;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   visibility: hidden;
+}
+
+.skills{
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 575px) {
@@ -192,6 +234,14 @@ h1{
 
   .aboutme{
     height: fit-content;
+  }
+
+  .projects{
+    height: fit-content;
+  }
+
+  .carouselitems{
+    padding-bottom: 5vh;
   }
 
 }
