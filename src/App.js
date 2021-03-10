@@ -143,7 +143,7 @@ function App() {
         </div>
       </div>
       <footer>
-        Copyright
+      Copyright &copy; 2021, Lucas Kitteridge. All rights reserved
       </footer>
     </div>
   );

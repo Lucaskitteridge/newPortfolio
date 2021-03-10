@@ -40,7 +40,7 @@ html {
 }
 
 .Navbar.scroll {
-  background-color: #4dadbf;
+  background-color: #5EB5BF;
 }
 
 p {
@@ -59,26 +59,26 @@ p {
 
 .skills {
   height: fit-content;
-  background-color: #f4ece3;
+  background-color: #5EB5BF;
 }
 
 .aboutme {
   height: fit-content;
-  background-color: #547174;
-  color: white;
+  background-color: #F2EAE4;
+  color: black;
   padding-left: 2em;
   padding-right: 2em;
 }
 
 .projects {
   height: 100vh;
-  background-color: #547174;
-  color: white;
+  background-color: #F2EAE4;
+  color: black;
 }
 
 .contact {
   height: 32vh;
-  background-color: #4dadbf;
+  background-color: #5EB5BF;
 }
 
 .icons {
@@ -133,6 +133,10 @@ h1{
   flex-direction: row;
   align-items: center;
   padding-bottom: 1em;
+}
+
+footer{
+  background-color: #5EB5BF;
 }
 
 .Typecraft{
