@@ -38,7 +38,7 @@ function App() {
         </Navbar>
         <div >
           <div className="welcomepage" id="welcomepage">
-            <h1>Hi, I'm Lucas Kitteridge and I'm a Full Stack Web-developer</h1>
+            <h1>I'm Lucas Kitteridge and I'm a Full Stack Web-developer</h1>
           </div>
         </div>
         <div id="aboutMe" className="aboutme">
