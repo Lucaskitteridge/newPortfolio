@@ -47,7 +47,7 @@ function App() {
             <div className="profile"></div>
             <div className="aboutmecolumn">
               <p>
-                Hi, my name's Lucas. Currently I'm transitioning from a seven year career as a professional figure skater on Team GB to a career in Full Stack Web-Development. I'm bringing a passion for problem solving, a dedicated work-ethic and an eagerness to learn to the table. 
+                Hi, my name's Lucas. Currently I'm transitioning from a seven year career as a professional figure skater on Team GB to a career in Full Stack Web-Development. I have a passion for problem solving, a dedicated work-ethic and an eagerness to learn. 
             </p>
               <a href="https://resume.creddle.io/resume/3m97wunziro" target="_blank" rel="noreferrer">
                 <FaBookOpen className="Fa" size="2em" />
