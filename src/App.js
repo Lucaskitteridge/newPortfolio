@@ -6,6 +6,8 @@ import { useState } from 'react'
 
 function App() {
 
+  window.document.title="Lucas Kitteridge Portfolio";
+
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
     if (window.scrollY >= 160) {
