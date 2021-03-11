@@ -252,4 +252,8 @@ footer{
     padding-bottom: 5vh;
   }
 
+  footer{
+    font-size: small;
+  }
+
 }
