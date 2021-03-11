@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/newportfolio/static/css/main.e743e404.chunk.css",
-    "main.js": "/newportfolio/static/js/main.7ad2872c.chunk.js",
-    "main.js.map": "/newportfolio/static/js/main.7ad2872c.chunk.js.map",
-    "runtime-main.js": "/newportfolio/static/js/runtime-main.53e9fb28.js",
-    "runtime-main.js.map": "/newportfolio/static/js/runtime-main.53e9fb28.js.map",
-    "static/css/2.fabbef47.chunk.css": "/newportfolio/static/css/2.fabbef47.chunk.css",
-    "static/js/2.59b46a9b.chunk.js": "/newportfolio/static/js/2.59b46a9b.chunk.js",
-    "static/js/2.59b46a9b.chunk.js.map": "/newportfolio/static/js/2.59b46a9b.chunk.js.map",
-    "static/js/3.324e8f9f.chunk.js": "/newportfolio/static/js/3.324e8f9f.chunk.js",
-    "static/js/3.324e8f9f.chunk.js.map": "/newportfolio/static/js/3.324e8f9f.chunk.js.map",
-    "index.html": "/newportfolio/index.html",
-    "static/css/2.fabbef47.chunk.css.map": "/newportfolio/static/css/2.fabbef47.chunk.css.map",
-    "static/css/main.e743e404.chunk.css.map": "/newportfolio/static/css/main.e743e404.chunk.css.map",
-    "static/js/2.59b46a9b.chunk.js.LICENSE.txt": "/newportfolio/static/js/2.59b46a9b.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/newportfolio/static/media/Typecraft.8d11d304.png"
+    "main.css": "/newPortfolio/static/css/main.7ca325d0.chunk.css",
+    "main.js": "/newPortfolio/static/js/main.7ad2872c.chunk.js",
+    "main.js.map": "/newPortfolio/static/js/main.7ad2872c.chunk.js.map",
+    "runtime-main.js": "/newPortfolio/static/js/runtime-main.7f344ae2.js",
+    "runtime-main.js.map": "/newPortfolio/static/js/runtime-main.7f344ae2.js.map",
+    "static/css/2.fabbef47.chunk.css": "/newPortfolio/static/css/2.fabbef47.chunk.css",
+    "static/js/2.59b46a9b.chunk.js": "/newPortfolio/static/js/2.59b46a9b.chunk.js",
+    "static/js/2.59b46a9b.chunk.js.map": "/newPortfolio/static/js/2.59b46a9b.chunk.js.map",
+    "static/js/3.324e8f9f.chunk.js": "/newPortfolio/static/js/3.324e8f9f.chunk.js",
+    "static/js/3.324e8f9f.chunk.js.map": "/newPortfolio/static/js/3.324e8f9f.chunk.js.map",
+    "index.html": "/newPortfolio/index.html",
+    "static/css/2.fabbef47.chunk.css.map": "/newPortfolio/static/css/2.fabbef47.chunk.css.map",
+    "static/css/main.7ca325d0.chunk.css.map": "/newPortfolio/static/css/main.7ca325d0.chunk.css.map",
+    "static/js/2.59b46a9b.chunk.js.LICENSE.txt": "/newPortfolio/static/js/2.59b46a9b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/newPortfolio/static/media/Typecraft.8d11d304.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.53e9fb28.js",
+    "static/js/runtime-main.7f344ae2.js",
     "static/css/2.fabbef47.chunk.css",
     "static/js/2.59b46a9b.chunk.js",
-    "static/css/main.e743e404.chunk.css",
+    "static/css/main.7ca325d0.chunk.css",
     "static/js/main.7ad2872c.chunk.js"
   ]
 }
