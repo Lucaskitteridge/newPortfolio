@@ -74,9 +74,10 @@ p {
 }
 
 .projects {
-  height: 100vh;
+  height: fit-content;
   background-color: #F2EAE4;
   color: black;
+  padding-bottom: 2em;
 }
 
 .contact {
