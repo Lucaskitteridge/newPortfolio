@@ -44,10 +44,10 @@ function App() {
         <div id="aboutMe" className="aboutme">
           <h1 className="title">About Me</h1>
           <div className="columns">
-            <div className="profile"></div>
+            <div className="profile"/>
             <div className="aboutmecolumn">
               <p>
-                As a recent graduate of the web development bootcamp from Lighthouse Labs, I am excited to start my carrer as a web developer. I am bringing my work ethic and creative problem soling skills that I developed during my seven year carrer as a professional figure skater and from my bachelors degree in Fine Art.
+                As a recent graduate of the web development bootcamp from Lighthouse Labs, I am excited to start my carrer as a web developer. I am bringing my work ethic and creative problem soling skills that I developed during my seven year carrer as a professional figure skater and from my Bachelors degree in Fine Art.
             </p>
               <a href="https://resume.creddle.io/resume/3m97wunziro" target="_blank" rel="noreferrer">
                 <FaBookOpen className="Fa" size="2em" />
