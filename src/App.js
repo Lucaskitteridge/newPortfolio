@@ -47,7 +47,7 @@ function App() {
             <div className="profile"></div>
             <div className="aboutmecolumn">
               <p>
-                Hi, my name's Lucas. Currently I'm transitioning from a seven year career as a professional figure skater on Team GB to a career in Full Stack Web-Development. I have a passion for problem solving, a dedicated work-ethic and an eagerness to learn. 
+                As a recent graduate of the web development bootcamp from Lighthouse Labs, I am excited to start my carrer as a web developer. I am bringing my work ethic and creative problem soling skills that I developed during my seven year carrer as a professional figure skater and from my bachelors degree in Fine Art.
             </p>
               <a href="https://resume.creddle.io/resume/3m97wunziro" target="_blank" rel="noreferrer">
                 <FaBookOpen className="Fa" size="2em" />

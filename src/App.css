@@ -44,17 +44,13 @@ html {
   background-color: #5EB5BF;
 }
 
-p {
-  text-align: center;
-}
-
 .welcomepage {
   padding-top: 5em;
   height: 100vh;
   color: #f4ece3;
   padding-right: 2em;
   padding-left: 2em;
-  display: flex;
+  text-align: center;
   align-items: baseline;
 }
 
@@ -63,7 +59,6 @@ p {
   background-color: #5EB5BF;
   border-top: 10vh;
 }
-
 
 .aboutme {
   height: fit-content;
