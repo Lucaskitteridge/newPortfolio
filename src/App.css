@@ -13,6 +13,7 @@ html {
 }
 
 .logo {
+  padding-left: .25em;
   font-family: 'Oswald', sans-serif;
   font-size: x-large;
 }
