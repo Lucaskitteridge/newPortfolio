@@ -253,4 +253,12 @@ footer{
     font-size: small;
   }
 
+  .description{
+    font-size: x-small;
+  }
+
+  .icons{
+    margin-bottom: 0;
+  }
+
 }
