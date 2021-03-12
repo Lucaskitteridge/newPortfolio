@@ -47,7 +47,7 @@ function App() {
             <div className="profile"/>
             <div className="aboutmecolumn">
               <p>
-                As a recent graduate of the web development Bootcamp from Lighthouse Labs, I am now a Full Stack Web-Developer. I am bringing my work ethic and creative problem solving skills that I developed during my seven year career as a professional figure skater and from my Bachelors degree in Fine Art. Now, I'm creating new web apps just to experiment and to test the limits of what I can do with Javascript. I've started to teach myself Swift as well so that I can expand my knowledge and further my own app development capabilities.
+                As a recent graduate of the web development Bootcamp from Lighthouse Labs, I am now a Full Stack Web-Developer. I am bringing my work ethic and creative problem solving skills that I developed during my seven year career as a professional figure skater and from my Bachelors degree in Fine Art. Now, I'm creating new web apps just to experiment and to test the limits of what I can do with Javascript. I've started to teach myself Kotlin as well so that I can expand my knowledge and further my own app development capabilities.
             </p>
               <a href="https://resume.creddle.io/resume/3m97wunziro" target="_blank" rel="noreferrer">
                 <FaBookOpen className="Fa" size="2em" />
